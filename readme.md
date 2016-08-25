@@ -4,7 +4,7 @@
 
 ![Screenshot application](assets/screenshot.png)
 
-SOPS 项目xiang'mu
+SOPS 项目
 
 ## Prerequisites
 
