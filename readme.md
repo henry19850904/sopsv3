@@ -4,7 +4,7 @@
 
 ![Screenshot application](assets/screenshot.png)
 
-This application has been built using [React](https://facebook.github.io/react/) and [Webpack](https://webpack.github.io) and demonstrates how you can implement the Flux architecture for unidirectional data flow in combination with leveraging SharePoint REST APIs. UX is implemented using [Office UI Fabric](http://dev.office.com/fabric).
+SOPS 项目xiang'mu
 
 ## Prerequisites
 
