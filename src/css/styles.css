@@ -1,0 +1,119 @@
+.list-item,
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item-primaryText {
+    width: auto;
+    color: rgb(33, 33, 33);
+    cursor: auto;
+    display: block;
+   font-size: 14px;
+    font-weight: normal;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 0px;
+    padding-top: 15px;
+    position: static;
+    text-align: left;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+    top: -4px;
+    white-space: nowrap;
+}
+
+.item-secondaryText {
+    color: rgb(102, 102, 102);
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 25px;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 30px;
+    padding-top: 6px;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    top: -7px;
+    white-space: normal;
+}
+
+.item-secondaryText b {
+    color: red;
+}
+
+.item-tertiaryText {
+    color: rgb(118, 118, 118);
+    display: block;
+      font-size: 14px;
+    font-weight: normal;
+    height: 19px;
+    list-style-type: none;
+    margin-bottom: -4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    top: -9px;
+    white-space: nowrap;
+}
+
+.sops-userinfo{
+
+}
+.sops-userinfo,.sops-userpic{
+    margin-top: 1em;
+}
+
+
+.ms-Spinner {
+  position: relative;
+  height: 20px;
+}
+
+.ms-Spinner.ms-Spinner--large {
+  height: 28px;
+}
+
+.ms-Spinner.ms-Spinner--large .ms-Spinner-label {
+  left: 34px;
+  top: 6px;
+}
+
+.ms-Spinner-circle {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #0078d7;
+  opacity: 0;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .ms-Spinner-circle {
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+  .ms-Spinner-circle {
+    background-color: #000000;
+  }
+}
+
+.ms-Spinner-label {
+  position: relative;
+  color: #333333;
+  font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #0078d7;
+  left: 28px;
+  top: 2px;
+}
