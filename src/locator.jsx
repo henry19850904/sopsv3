@@ -6,6 +6,7 @@ import Home from './js/components/Home.jsx'
 import Search from './js/components/Search.jsx'
 import Table from './js/components/Table.jsx'
 import Todo from './js/components/Todo.jsx'
+import List from './js/components/List.jsx'
 import Holiday from './js/components/holidays/Calendar.jsx' 
 
 import Settings from './js/components/Settings.jsx'
@@ -24,6 +25,7 @@ ReactDOM.render((
       <Route path="/Search" component={Search}/>
       <Route path="/Table" component={Table}/>
       <Route path="/Todo" component={Todo}/>
+      <Route path="/List" component={List}/>
 
         <Route path="/settings" component={Settings}/>
     </Route>

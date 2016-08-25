@@ -23,6 +23,7 @@ export default React.createClass({
                                             <li><NavLink to="/Table">Table</NavLink></li> 
                                             <li><NavLink to="/Todo">Todo</NavLink></li> 
                                             <li><NavLink to="/settings">Settings</NavLink></li> 
+                                            <li><NavLink to="/List">List</NavLink></li> 
                                         </ul>
                                     </div>
                                 </div>
